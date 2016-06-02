@@ -1,0 +1,71 @@
+{
+  "main":
+  [
+    {
+      "tag": "div",
+      "class": "user"
+  
+    },
+    {
+      "tag": "div",
+      "class": "title"
+    },
+    {
+      "tag": "div",
+      "class": "description"
+    }
+  ],
+  
+  "abfrage":
+  {
+  "tag": "div",
+  "class": "abfrage",
+  "inner": [ {
+                "tag": "div",
+                "inner" : [ {
+                                "tag": "span",
+                                "class": "vokabel",
+                                "inner": "%vokabel%"
+                            },
+                            {
+                                "tag": "br"
+                            },
+                            {
+                                "tag": "span"
+                                
+                            }
+                            ]  
+             },
+             {
+                "tag":"form",
+                "onsubmit": "%onsubmit%",
+                "inner": [
+                        {
+                            "tag": "div",
+                            "class": "antwort",
+                            "inner": [
+                                        {
+                                          "tag": "input",
+                                          "type": "text",
+                                          "placeholder": "Antwort..."
+                                          
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "class": "button",
+                                          "inner": [
+                                                        {
+                                                        "tag":"input",
+                                                        "type":"submit",
+                                                        "value": "%caption%"
+                                                        }   
+                                                    ]
+                                        }
+                                       ]
+                         }
+                            ]
+                }
+                 
+            ]
+    }
+}
