@@ -1,0 +1,44 @@
+.ccm-vokabeltrainer {
+
+  font-family: Arial, serif;
+  overflow-x: auto;
+  padding: 0.5em;
+  margin-top: 10px;
+
+  line-height: normal;
+  text-align: center;
+
+}
+
+.ccm-vokabeltrainer > .title {
+
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin-bottom: auto;
+  padding: 0;
+
+}
+
+
+.ccm-vokabeltrainer > .title > div {
+
+  font-weight: bold;
+  padding-bottom: 1em;
+
+}
+
+.ccm-vokabeltrainer > .description > div {
+
+  padding-bottom: 1em;
+
+}
+
+.ccm-vokabeltrainer > .input > .antwort > div {
+    background-color: blue;
+    
+}
+
+
