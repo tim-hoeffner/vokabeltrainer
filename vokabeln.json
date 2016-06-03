@@ -1,0 +1,28 @@
+{
+  "vokabeltrainer":
+    {
+      "user":"thoeff2s",
+      "description": "test",
+      "vokabeln":
+    [
+    {  
+    "key": "vokabel1",
+    "vokabel": "eins",
+    "antwort": "one"
+  },
+  {  
+    "key": "vokabel2",
+    "vokabel": "zwei",
+    "antwort": "two"
+
+  },
+  {  
+    "key": "vokabel3",
+    "vokabel": "drei",
+    "antwort": "three"
+
+  }
+  ]
+   
+}
+}
