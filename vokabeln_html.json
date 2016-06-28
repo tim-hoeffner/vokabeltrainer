@@ -1,0 +1,97 @@
+ccm.callback["vokabeln_html.json"](
+{
+  "main":
+    {
+      "tag": "div",
+      "class": "user"
+        
+    },
+  
+  "abfrage":
+  {
+  "tag": "div",
+  "class": "abfrage",
+  "inner": [ {
+              "tag": "span",
+              "class": "vokabel",
+              "inner": "%vokabel%"
+             },
+             {
+             "tag": "br"
+             }
+            ]
+  },
+            
+ "input":
+    {
+     "tag":"form",
+     "onclick": "%onsubmit%",
+    "class": "input",    
+    "inner": [
+                {
+                 "tag": "div",
+                 "class": "antwort",    
+                 "inner": [
+                            {
+                            "tag": "input",
+                            "type": "text",
+                            "placeholder": "Antwort..."
+                                          
+                            },
+                            {
+                            "tag": "div",
+                            "class": "button",
+                            "inner": [
+                                        {
+                                        "tag":"input",
+                                        "type":"submit",
+                                        "value": "Send"
+                                        }   
+                                      ]
+                             }
+                            ]
+                 }
+              ]
+    },
+    
+  "feedback": {
+      "tag":"div",
+      "class":"feedback"
+      
+  },
+ "description": {
+      "tag":"div",
+      "class":"description"
+      
+  },
+ "next": {
+      "tag":"div",
+      "class":"next",
+     "onclick": "%onclick%",
+      "inner": [
+           {
+                            "tag": "div",
+                            "class": "button",
+                            "inner": [
+                                        {
+                                        "tag":"input",
+                                        "type":"submit",
+                                        "value": "Nächste Vokabel"
+                                        }   
+                                      ]
+                             }
+          
+          
+      ]
+ },
+    
+"auswertung": {
+    "tag":"div",
+    "class":"Auswertung"
+}
+
+    
+    
+}
+);
+                 
